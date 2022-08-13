@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    background-color:rgb(224, 158, 136)
+}
+
+
+h1{
+    background-color: white;
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    width: 700px;
+    font-family: fantasy;
+    text-align: center;
+    box-shadow: 4px 4px 5px #888888;
+    margin-top: 20px;
+}
+
+.spin{
+    width:400px;
+    height: 500px;
+    margin: 5px;
+    transition:ease-in-out 3s
+}
+
+.spin:hover{
+    transform:rotate(-360deg)
+}
+
+.grow{
+    width:400px;
+    height: 500px;
+    margin: 5px;
+    transition:all 1s   
+}
+
+.grow:hover{
+    transform:rotate(90deg)
+}
+
+.deep{
+    width:400px;
+    height: 500px;
+    margin: 5px;
+    transition:all 3s
+}
+
+.deep:hover{
+    transform: rotate(-90deg);
+}
+
+.container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
