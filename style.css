@@ -1,5 +1,5 @@
 body{
-    background-color: burlywood;
+    background-color: rgb(184, 136, 73);
     text-align: center;
 }
 
@@ -11,4 +11,49 @@ h1{
 
 h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(26, 44, 46);
+}
+
+.color{
+    border: 2px solid #ff7f50;;
+    border-radius: 12px;
+    padding: 5px; 
+    margin: auto;
+    background-color: burlywood;
+    
+}
+
+.enhance{
+    border: 2px solid #d38c72;;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: rgb(223, 184, 184);
+    margin-top: 10px;
+}
+
+.enhance:hover{
+    border: #ff7f50;
+    background-color: antiquewhite;
+}
+
+.small{
+    padding: 1px, 4px;
+    background-color:rgb(226, 119, 100);
+    margin: 5px;
+}
+
+.small:hover{
+    background-color: rgb(235, 69, 69);
+    border: #ff7f50;
+}
+
+.grey{
+    padding: 1px, 2px;
+    background-color:rgb(107, 228, 123);
+    margin: 5px;   
+}
+
+.grey:hover{
+    background-color:rgb(105, 216, 105);
+    border: rgb(95, 161, 202);
 }
