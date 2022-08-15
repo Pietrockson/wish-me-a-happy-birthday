@@ -1,12 +1,11 @@
 body{
-    background-color: rgb(184, 136, 73);
+    background: linear-gradient(to right, rgb(133, 153, 142), rgb(184, 136, 73));
     text-align: center;
 }
 
 h1{
     font-family: Verdana, Geneva, Tahoma;
     background-color: blanchedalmond;
-    text-overflow: clip;
 }
 
 h2{
@@ -14,21 +13,28 @@ h2{
     color: rgb(26, 44, 46);
 }
 
+.anc{
+    display: flex;
+    justify-content: right;
+}
+
+.anc:hover{
+    background-color: rgb(207, 151, 76);
+}
+
 .color{
     border: 2px solid #ff7f50;;
     border-radius: 12px;
     padding: 5px; 
-    margin: auto;
-    background-color: burlywood;
+    background: linear-gradient(to right, rgb(232, 197, 100), rgb(133, 153, 142));
     
 }
 
 .enhance{
     border: 2px solid #d38c72;;
     border-radius: 5px;
-    padding: 7px;
+    padding: 10px;
     background-color: rgb(223, 184, 184);
-    margin-top: 10px;
 }
 
 .enhance:hover{
@@ -37,23 +43,29 @@ h2{
 }
 
 .small{
-    padding: 1px, 4px;
-    background-color:rgb(226, 119, 100);
-    margin: 5px;
+    padding: 12px;
+    border: 2px solid #213632;
+    border-radius: 10px;
+    background-color: #bd074d;
+    
 }
 
 .small:hover{
-    background-color: rgb(235, 69, 69);
-    border: #ff7f50;
+    background-color: rgb(235, 108, 69);
+    border:2px solid #1b3bceda;
+
 }
 
 .grey{
-    padding: 1px, 2px;
-    background-color:rgb(107, 228, 123);
-    margin: 5px;   
+    padding: 12px;
+    border:2px solid rgb(230, 210, 36) ;
+    border-radius: 10px;
+    background-color:rgba(7, 255, 201, 0.884);
+    margin: 10px, 20px, 10px, 20px;
+   
 }
 
 .grey:hover{
-    background-color:rgb(105, 216, 105);
-    border: rgb(95, 161, 202);
+    background-color:rgb(47, 192, 218);
+    border: 2px solid rgb(141, 26, 26);
 }
